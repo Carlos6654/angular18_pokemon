@@ -3,7 +3,7 @@ name: Create PR from develop to main
 on:
   push:
     branches:
-      - development
+      - develop
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: main
-          branch: development
+          branch: develop
           title: 'Auto-generated PR from develop to main'
           body: |
             This pull request has been automatically created from the develop branch to the main branch.
