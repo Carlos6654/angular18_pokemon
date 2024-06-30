@@ -1,4 +1,4 @@
 # angular18_pokemon
-Alterando mais uma vez README para start.
+Este projeto é um teste com angular versão 18 e pokemon api.
 
 
