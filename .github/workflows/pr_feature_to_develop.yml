@@ -30,7 +30,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: develop
-          head: ${{ github.ref }}
+          branch: ${{ github.ref }}
           title: 'Auto-generated PR from feature branch'
           body: |
             This pull request has been automatically created from a feature branch.
