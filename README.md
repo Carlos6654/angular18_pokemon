@@ -1,4 +1,4 @@
 # angular18_pokemon
-Alterando novamente README para start.
+Alterando mais uma vez README para start.
 
 
