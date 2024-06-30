@@ -1,4 +1,4 @@
 # angular18_pokemon
-Alterando README para teste de branch.
+Alterando novamente README para start.
 
 
