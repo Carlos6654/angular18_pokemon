@@ -1,0 +1,25 @@
+name: Create PR from develop to main
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.PAT }}  # Use o Personal Access Token (PAT) se necessário
+          base: main
+          branch: develop
+          title: 'Auto-generated PR from develop to main'
+          body: |
+            This pull request has been automatically created from the develop branch to the main branch.
