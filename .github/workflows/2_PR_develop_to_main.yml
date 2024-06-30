@@ -3,7 +3,7 @@ name: Create PR from develop to main
 on:
   push:
     branches:
-      - develop
+      - 'develop'
   workflow_dispatch:
 
 jobs:
